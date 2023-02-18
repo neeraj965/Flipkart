@@ -1,0 +1,53 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    position: absolute;
+    right: 2em;
+    border: none;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 360px;
+    
+}
+
+.login{
+    padding: 4px 30px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: var(--main-bg-color);
+    background: white;
+    border: 1px solid white;
+    border-radius: 1px;
+    margin: 0 0px 0 50px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.more{
+    
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: none;
+}
+
+.cart{
+    
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: none;
+}
